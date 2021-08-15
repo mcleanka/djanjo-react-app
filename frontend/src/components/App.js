@@ -1,11 +1,18 @@
-import React, { Component } from 'react';
-import ReactDOM, { render } from 'react-dom';
+import React from 'react'
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+	Link,
+	Redirect
+} from "react-router-dom";
 
-ReactDOM.render(
-	<React.StrictMode>
+function App() {
+	return (
 		<div>
 			Hello django
 		</div>
-	</React.StrictMode>,
-	document.getElementById('app')
-);
+	)
+}
+
+export default App
