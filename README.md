@@ -1,1 +1,1 @@
-# djanjo-react-app
+# Djanjo React App
