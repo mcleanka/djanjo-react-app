@@ -4,7 +4,7 @@ const webpack = require("webpack");
 module.exports = {
 	entry: "./src/index.js",
 	output: {
-		path: path.resolve(__dirname, "./static/frontend"),
+		path: path.resolve(__dirname, "./assets/frontend"),
 		filename: "[name].js",
 	},
 	module: {
